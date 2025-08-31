@@ -11,6 +11,7 @@ if ["$disk_usage" - gt 90]; then
 fi
 
 #disk_usage=$ is a variable with command inside 
+# (df / | tail -1 | awk '{print $5}' | sed 's/%//') = will check the /root folder or disk
 #df = disk free utility
 #tail = get the df last entry 
 #awk = is utility that can cut and print the last column
