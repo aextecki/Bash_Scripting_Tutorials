@@ -15,22 +15,26 @@ operating system.
 
 ./script.sh
 
-Basics of a Bash Script
+Basics of a Bash Scripting 
+
 • Shebang: Every bash script starts with #!/bin/bash.
 It tells the system that this file is a Bash script and the location of Bash.
 • Comments: Lines that begin with # are comments and are not
 executed.
 
+Sample below: 
+
 #!bin/bash
 
 #this is a comment
 
-Why Learn Bash Scripting?
+Why you need to learn Bash Scripting?
+
 • Automate tasks: Instead of manually typing each command every time, you can
 script a series of commands.
 • Repetition: Easily perform the same task across many files or servers.
 • Decision making: Make decisions, e.g., if a certain condition is true, then do this,
-otherwise do that
+otherwise do that or do conditionals decisions.
 
 
 
