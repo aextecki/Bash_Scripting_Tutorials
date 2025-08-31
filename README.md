@@ -9,11 +9,20 @@ original Unix Shell program, Bourne Shell (sh).
 operating system.
 • Permissions & Execution: Before running a script, you need to make it executable
 
+'chmod +x script.sh'
+
+•to Execute
+
+./script.sh
+
 Basics of a Bash Script
 • Shebang: Every bash script starts with #!/bin/bash.
 It tells the system that this file is a Bash script and the location of Bash.
 • Comments: Lines that begin with # are comments and are not
 executed.
+
+#!bin/bash
+#this is a comment
 
 Why Learn Bash Scripting?
 • Automate tasks: Instead of manually typing each command every time, you can
@@ -21,5 +30,6 @@ script a series of commands.
 • Repetition: Easily perform the same task across many files or servers.
 • Decision making: Make decisions, e.g., if a certain condition is true, then do this,
 otherwise do that
+
 
 
