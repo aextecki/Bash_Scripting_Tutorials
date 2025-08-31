@@ -22,6 +22,7 @@ It tells the system that this file is a Bash script and the location of Bash.
 executed.
 
 #!bin/bash
+
 #this is a comment
 
 Why Learn Bash Scripting?
