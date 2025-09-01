@@ -25,7 +25,6 @@ str3=""
 
 if [ -z "$str3" ]; then 
     echo "$str3 is an empty string"
-
 fi
 
 
