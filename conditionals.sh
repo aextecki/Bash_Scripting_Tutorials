@@ -24,7 +24,7 @@ fi
 str3=""
 
 if [ -z "$str3" ]; then 
-    echo "$str3 is an empty string"
+    echo "$str3 is an empty string" # error: ./conditionals.sh: line 27: unexpected EOF while looking for matching `"'
 fi
 
 
