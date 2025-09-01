@@ -22,7 +22,7 @@ if [ "$str1" != "$str2" ]; then
 fi
 
 if [ -z "$str3" ]; then 
-    echo "str3 is an empty string"
+    echo "$str3 is an empty string"
 
 fi
 
