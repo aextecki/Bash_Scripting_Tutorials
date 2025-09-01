@@ -21,6 +21,8 @@ if [ "$str1" != "$str2" ]; then
     echo "$str1 is not equal to $str2"
 fi
 
+str3=""
+
 if [ -z "$str3" ]; then 
     echo "$str3 is an empty string"
 
